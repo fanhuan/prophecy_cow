@@ -1,0 +1,7 @@
+library(slidify)
+library(knitr)
+setwd("/Users/Huan/Dropbox/Courses/DataScientist/Capstone/Slidify")
+author("Huan Fan")
+slidify('index.Rmd')
+browseURL('index.html')
+publish_github('uku_slidify','fanhuan')

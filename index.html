@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Prophecy Cow</title>
+  <meta charset="utf-8">
+  <meta name="description" content="Prophecy Cow">
+  <meta name="author" content="Heather">
+  <meta name="generator" content="slidify" />
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/default.css" media="all" >
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/phone.css" 
+    media="only screen and (max-device-width: 480px)" >
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/slidify.css" >
+  <link rel="stylesheet" href="libraries/highlighters/highlight.js/css/tomorrow.css" />
+  <base target="_blank"> <!-- This amazingness opens all links in a new tab. -->  <link rel=stylesheet href="./assets/css/ribbons.css"></link>
+
+  
+  <!-- Grab CDN jQuery, fall back to local if offline -->
+  <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.7.min.js"></script>
+  <script>window.jQuery || document.write('<script src="libraries/widgets/quiz/js/jquery.js"><\/script>')</script> 
+  <script data-main="libraries/frameworks/io2012/js/slides" 
+    src="libraries/frameworks/io2012/js/require-1.0.8.min.js">
+  </script>
+  
+  
+
+</head>
+<body style="opacity: 0">
+  <slides class="layout-widescreen">
+    
+    <!-- LOGO SLIDE -->
+        <slide class="title-slide segue nobackground">
+  <aside class="gdbar">
+    <img src="assets/img/pc.png">
+  </aside>
+  <hgroup class="auto-fadein">
+    <h1>Prophecy Cow</h1>
+    <h2>Predict your next word</h2>
+    <p>Heather<br/></p>
+  </hgroup>
+  <article></article>  
+</slide>
+    
+
+    <!-- SLIDES -->
+    <slide class="" id="slide-1" style="background:;">
+  <hgroup>
+    <h2>Prophecy Cow</h2>
+  </hgroup>
+  <article data-timings="">
+    <p>My friend Lily runs the Prophecy Cow website [<a href="http://www.prophecycow.com/p/prophecy-home.html">http://www.prophecycow.com/p/prophecy-home.html</a>]. She secretly does the prediction herself. When the Prophecy Cow starts to get famous, the workload becomes human-incapable. Here we summon the power of machine learning for rescue. </p>
+
+<p><img src="pc.png" alt="width"></p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-2" style="background:;">
+  <hgroup>
+    <h2>Corpus</h2>
+  </hgroup>
+  <article data-timings="">
+    <ul>
+<li>The corpus used in the prediction is downloaded from (<a href="http://www.ngrams.info/samples_coca1.asp">http://www.ngrams.info/samples_coca1.asp</a>). </li>
+<li>Only the 2g and 3g case insensitive corpora are used in this app. </li>
+<li>Only the top 5 predictions of each word (or first two words in the 3g case) are kept in the corpora to reduce its size (since we will be giving only 5 suggestions anyways).</li>
+</ul>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-3" style="background:;">
+  <hgroup>
+    <h2>Algorithm</h2>
+  </hgroup>
+  <article data-timings="">
+    <p>The prophecy cow is a cow afterall. She predicts things in the simplest way possible. She suggests whatever word follows the word you entered the most frequently. She understands the complexity of human world so she gives five suggestions (the 5 most frquently 2-gram phrase). If you&#39;re still not satisfied, you can check the box for &quot;No, none of those are what I meant next&quot;, and enter your own.</p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-4" style="background:;">
+  <hgroup>
+    <h2>Future work</h2>
+  </hgroup>
+  <article data-timings="">
+    <p>The prophecy cow is in the process of learning to spit out a whole sentence.</p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+    <slide class="backdrop"></slide>
+  </slides>
+  <div class="pagination pagination-small" id='io2012-ptoc' style="display:none;">
+    <ul>
+      <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=1 title='Prophecy Cow'>
+         1
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=2 title='Corpus'>
+         2
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=3 title='Algorithm'>
+         3
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=4 title='Future work'>
+         4
+      </a>
+    </li>
+  </ul>
+  </div>  <!--[if IE]>
+    <script 
+      src="http://ajax.googleapis.com/ajax/libs/chrome-frame/1/CFInstall.min.js">  
+    </script>
+    <script>CFInstall.check({mode: 'overlay'});</script>
+  <![endif]-->
+</body>
+  <!-- Load Javascripts for Widgets -->
+  
+  <!-- LOAD HIGHLIGHTER JS FILES -->
+  <script src="libraries/highlighters/highlight.js/highlight.pack.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+  <!-- DONE LOADING HIGHLIGHTER JS FILES -->
+   
+  </html>
